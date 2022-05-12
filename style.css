@@ -9,11 +9,6 @@ html {
 body {
     font-size: 1.6rem;
     background-color: rgba(28, 180, 206, 0.792);
-    overflow: hidden;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
 }
 img.compartido {
@@ -27,7 +22,13 @@ img.bottom {
     bottom: -400px;
     right: -500px;
 }
-
+main {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main {
     overflow: hidden;
     z-index: 10;
