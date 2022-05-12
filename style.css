@@ -23,7 +23,7 @@ img.bottom {
     right: -500px;
 }
 main {
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 100vh;
     display: flex;
     justify-content: center;
