@@ -62,3 +62,8 @@ span {
     justify-content: space-evenly;
     padding: 1.5rem;
 }
+@media (max-width: 800px) {
+    .compartido{
+        display: none;
+    }
+}
