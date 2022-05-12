@@ -10,15 +10,53 @@ body {
     font-size: 1.6rem;
     background-color: rgba(28, 180, 206, 0.792);
     overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 img.compartido {
     position: absolute;
 }
 img.top {
-    top: -50rem;
-    left: -40rem;
+    top: -400px;
+    left: -500px;
 }
 img.bottom {
-    bottom: -50rem;
-    right: -40rem;
+    bottom: -400px;
+    right: -500px;
+}
+
+.main {
+    overflow: hidden;
+    z-index: 10;
+    width: 28rem;
+    position: relative;
+    border-radius: 1.5rem;
+}
+.main .body img {
+    border-radius: 50%;
+    border: 0.5rem solid white;
+    position: relative;
+    top: -5rem;
+}
+.main .body figcaption {
+    position: relative;
+    top: -3rem;
+}
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 100;
+}
+.body {
+    background-color: white;
+    text-align: center;
+}
+
+.footer {
+    border-top: 0.1rem solid hsl(0, 3%, 69%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
 }
