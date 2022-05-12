@@ -24,7 +24,7 @@ img.bottom {
     right: -600px;
 }
 main {
-    overflow: initial;
+    /* overflow: initial; */
     height: 100vh;
     display: flex;
     justify-content: center;
